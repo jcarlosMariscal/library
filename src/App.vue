@@ -1,11 +1,10 @@
 <template>
-  <!-- <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav> -->
+  <NavBarVue />
   <router-view />
 </template>
-
+<script lang="ts" setup>
+import NavBarVue from "@/components/NavBar.vue";
+</script>
 <style>
 :root {
   --color-white: #fffff4;
@@ -23,6 +22,10 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+#app {
+  width: 100vw;
+  overflow-x: hidden;
+}
 
 /* nav {
   padding: 30px;
@@ -36,6 +39,11 @@ nav a {
 nav a.router-link-exact-active {
   color: #42b983;
 } */
+button {
+  background: transparent;
+  border: none;
+  outline: none;
+}
 .btn {
   background: var(--color-white);
   color: var(--color-primary);

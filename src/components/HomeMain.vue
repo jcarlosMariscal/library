@@ -30,7 +30,7 @@
 
 <style scoped>
 .content {
-  width: 100vw;
+  width: 100vw !important;
   height: 70vh;
   background: var(--color-primary);
   /* background: blue; */
@@ -109,7 +109,7 @@
 .figure-container .container {
   position: relative;
   /* background: var(--color-secondary); */
-  background: rgba(255, 255, 255, 0.2);
+  /* background: rgba(255, 255, 255, 0.2); */
   padding: 1.5rem;
   border-radius: 0.5rem;
   text-align: center;
@@ -138,9 +138,10 @@
 .figure-separate::before {
   content: "";
   position: absolute;
-  bottom: -5%;
-  width: 3rem;
-  height: 3rem;
+  bottom: -4%;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.2rem;
   background: var(--color-primary);
   transform: rotate(45deg);
   z-index: 1;
