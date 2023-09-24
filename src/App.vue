@@ -23,8 +23,8 @@ body {
   box-sizing: border-box;
 }
 #app {
-  width: 100vw;
-  overflow-x: hidden;
+  /* width: 100vw; */
+  /* overflow-x: hidden; */
 }
 
 /* nav {

@@ -30,15 +30,12 @@
 
 <style scoped>
 .content {
-  width: 100vw !important;
+  /* width: 100%; */
   height: 70vh;
   background: var(--color-primary);
-  /* background: blue; */
-  /* position: relative; */
 }
 .content .content__figures {
   position: relative;
-  /* background-color: red; */
   width: 100%;
   height: 100%;
   z-index: 1;
@@ -145,5 +142,69 @@
   background: var(--color-primary);
   transform: rotate(45deg);
   z-index: 1;
+}
+
+@media screen and (max-width: 1000px) {
+  .content .content__figures .figure {
+    width: 12rem;
+    height: 12rem;
+  }
+  .content .content__figures .figure.figure-one {
+    bottom: 50%;
+    left: 4%;
+  }
+  .content .content__figures .figure.figure-two {
+    top: 45%;
+    right: 4%;
+    animation: home-circle 1.5s infinite alternate both;
+    animation-delay: 1.5s;
+  }
+}
+@media screen and (max-width: 770px) {
+  .content .content__figures .figure {
+    width: 10rem;
+    height: 10rem;
+  }
+  .content .content__figures .figure.figure-one {
+    bottom: 60%;
+    left: 10%;
+  }
+  .content .content__figures .figure.figure-two {
+    top: 50%;
+    right: 6%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .content .content__figures .figure {
+    width: 8rem;
+    height: 8rem;
+  }
+  .content .content__figures .figure.figure-one {
+    bottom: 64%;
+    left: 20%;
+  }
+  .content .content__figures .figure.figure-two {
+    top: 62%;
+    right: 5%;
+  }
+  .container-welcome {
+    font-size: 1.5rem !important;
+  }
+}
+@media screen and (max-width: 430px) {
+  .content .content__figures .figure {
+    width: 8rem;
+    height: 8rem;
+  }
+  .content .content__figures .figure.figure-two {
+    top: 68%;
+    right: 5%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .content .content__figures .figure {
+    width: 6rem;
+    height: 6rem;
+  }
 }
 </style>

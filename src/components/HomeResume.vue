@@ -6,7 +6,9 @@
 
 <style scoped>
 div {
-  height: 300px;
-  background: pink;
+  box-sizing: border-box;
+  width: 100% !important;
+  height: 1000vh;
+  /* background: pink; */
 }
 </style>

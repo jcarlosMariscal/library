@@ -11,6 +11,10 @@ import HomeResume from "@/components/HomeResume.vue";
 </script>
 <style scoped>
 .home {
-  /* width: 100vw !important; */
+  /* box-sizing: border-box; */
+  /* width: 100vw; */
+  /* min-height: 100vh; */
+  background: var(--color-white);
+  z-index: 100;
 }
 </style>
