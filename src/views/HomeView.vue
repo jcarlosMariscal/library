@@ -1,13 +1,13 @@
 <template>
   <div class="home">
     <HomeMain />
-    <HomeResume />
+    <HomeAdvantages />
   </div>
 </template>
 
 <script lang="ts" setup>
 import HomeMain from "@/components/HomeMain.vue";
-import HomeResume from "@/components/HomeResume.vue";
+import HomeAdvantages from "@/components/HomeAdvantages.vue";
 </script>
 <style scoped>
 .home {

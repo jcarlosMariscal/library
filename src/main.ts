@@ -11,11 +11,22 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 /* import specific icons */
-import { faBookOpenReader, faBars } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBookOpenReader,
+  faBars,
+  faBook,
+  faBookmark,
+  faGift,
+  faFire,
+} from "@fortawesome/free-solid-svg-icons";
 
 /* add icons to the library */
 library.add(faBookOpenReader);
 library.add(faBars);
+library.add(faBook);
+library.add(faBookmark);
+library.add(faGift);
+library.add(faFire);
 
 createApp(App)
   .component("font-awesome-icon", FontAwesomeIcon)

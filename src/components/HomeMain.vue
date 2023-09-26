@@ -17,7 +17,8 @@
       </div>
       <div class="figure-container">
         <div class="container">
-          <h1 class="container-welcome">Bienvenido a Biblioteca Virtual</h1>
+          <h2 class="container-welcome">¿Estás buscando un libro?</h2>
+          <p class="container-text">Te ayudamos a encontrarlo.</p>
           <a href="" class="btn btn-search">Buscar libros</a>
         </div>
       </div>
@@ -113,7 +114,15 @@
 }
 .figure-container .container .container-welcome {
   color: var(--color-white);
-  font-size: 2rem;
+  font-size: 1.8rem;
+  /* background: purple; */
+  margin-bottom: 0.2rem;
+}
+.figure-container .container .container-text {
+  /* background: aqua; */
+  color: var(--color-white);
+  font-size: 1rem;
+  margin-top: 0.2rem;
 }
 .btn-search:hover {
   transition: all 0.2s ease-in-out;
