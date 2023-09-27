@@ -9,7 +9,8 @@
       </button>
       <div class="content__navbar-menu">
         <div class="menu-items">
-          <router-link class="item" to="/">Home</router-link>
+          <router-link class="item" to="/">Inicio</router-link>
+          <router-link class="item" to="/libros">Libros</router-link>
         </div>
       </div>
     </nav>
@@ -19,8 +20,8 @@
       aria-label="Menú móvil"
     >
       <div class="menu-items mobile-menu">
-        <router-link class="item mobile-item" to="/">Home</router-link>
-        <router-link class="item mobile-item" to="/">Home</router-link>
+        <router-link class="item mobile-item" to="/">Inicio</router-link>
+        <router-link class="item mobile-item" to="/libros">Libros</router-link>
       </div>
     </nav>
   </div>
